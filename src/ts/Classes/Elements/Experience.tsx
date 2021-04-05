@@ -20,7 +20,7 @@ export interface ExperienceData {
 export class Experience extends DataComponent<ExperienceData> {
 
     protected update(): void { }
-    
+
     public createElement(): HTMLElement {
         return (
             <div className="card is-theme-secondary elevation-1 experience">
@@ -28,7 +28,7 @@ export class Experience extends DataComponent<ExperienceData> {
                     <div className="header">
                         <div className="icon">
                             <a href={this.data.link} target="_blank">
-                                <img src={`./out/images/Experience/${this.data.svg}.svg`}/>
+                                <img src={`./out/images/Experience/${this.data.svg}`} alt={'alt'}/>
                             </a>
                         </div>
                         <div className="company">

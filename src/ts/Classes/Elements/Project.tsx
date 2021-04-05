@@ -85,10 +85,10 @@ export class Project extends DataComponent<ProjectData> {
         return (
             <div className="xs-12 sm-6 md-4">
                 {
-                    this.data.award ? 
+                    this.data.award ?
                     <div className="award">
                         <div className="tooltip-container">
-                            <img src="out/images/Projects/award.png"/>
+                            <img src="out/images/Projects/award.png" style={ {transform: 'scale(1.5)'} }/>
                             <span ref="tooltip" className="tooltip left is-size-8">{this.data.award}</span>
                         </div>
                     </div>
@@ -108,11 +108,11 @@ export class Project extends DataComponent<ProjectData> {
                         <div className="slider is-theme-secondary" ref="slider">
                             <div className="content padding-4">
                                 <div className="title flex row xs-x-begin xs-y-center">
-                                    <p className="is-size-6 is-bold-weight">Details</p>
+                                    <p className="is-size-6 is-bold-weight">Tasks</p>
                                     <div className="close-btn-wrapper xs-x-self-end">
                                         <button className="btn close is-svg is-primary" tabindex="-1" onClick={this.lessInfo.bind(this)}>
                                             <i className="fas fa-times"></i>
-                                        </button> 
+                                        </button>
                                     </div>
                                 </div>
                                 <div className="body">
@@ -138,7 +138,7 @@ export class Project extends DataComponent<ProjectData> {
                                 : null
                             }
                             {
-                                this.data.external ? 
+                                this.data.external ?
                                 <a className="external btn is-primary is-text is-custom" href={this.data.external} target="_blank" tabindex="0">
                                     <i className="fas fa-external-link-alt"></i>
                                     <span>View Online</span>

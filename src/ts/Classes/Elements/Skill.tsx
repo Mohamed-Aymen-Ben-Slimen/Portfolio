@@ -12,7 +12,8 @@ export enum SkillCategory {
     Database = 1 << 4,
     DevOps = 1 << 5,
     Framework = 1 << 6,
-    Other = 1 << 7
+    DataScience = 1 << 7,
+    Other = 1 << 8,
 }
 
 // Format for data for each skill

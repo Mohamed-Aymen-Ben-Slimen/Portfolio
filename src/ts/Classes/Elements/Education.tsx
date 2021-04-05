@@ -60,7 +60,7 @@ export class Education extends DataComponent<EducationData> {
         } as React.CSSProperties;
 
         return (
-            <div className="education card is-theme-secondary elevation-1" style={inlineStyle}>
+            <div className="card is-theme-secondary elevation-1 education" style={ {...inlineStyle, marginTop: '30px'} }>
                 <div className="content padding-2">
                     <div className="body">
                         <div className="header flex row sm-wrap md-nowrap xs-x-center">
@@ -90,16 +90,15 @@ export class Education extends DataComponent<EducationData> {
                                 <div className="buffer" ref="takingTrack"></div>
                                 <div className="fill" ref="completedTrack"></div>
                             </div>
-                            <p className="credits is-size-8 xs-auto">{this.data.credits.total} credits</p>
+                            <p className="credits is-size-8 xs-auto">{this.data.credits.completed} %</p>
                         </div>
                         <div className="info content padding-x-4 padding-y-2">
-                            <p className="is-light-color is-size-8 is-italic">GPA / {this.data.gpa.overall} (overall) / {this.data.gpa.major} (major)</p>
                             {this.data.notes.map(note => {
                                 return <p className="is-light-color is-size-8 is-italic">{note}</p>
                             })}
                             <hr/>
                             <div className="courses">
-                                <p className="is-bold-weight is-size-6">Recent Coursework</p>
+                                <p className="is-bold-weight is-size-6">Coursework</p>
                                 <ul className="flex row is-size-7">
                                     {this.data.courses.map(course => {
                                         return <li className="xs-12 md-6">{course}</li>

@@ -9,6 +9,8 @@ $icon-sizes: (
 );
 
 section#education {
+    margin-top: -12rem;
+
     .card.education {
         @include drawn-in;
 
@@ -19,9 +21,9 @@ section#education {
                         >:not(:last-child) {
                             margin-bottom: 1rem;
                         }
-                    }  
+                    }
                 }
-                
+
 
                 .icon {
                     height: auto;

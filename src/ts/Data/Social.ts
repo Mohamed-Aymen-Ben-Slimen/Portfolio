@@ -6,16 +6,16 @@ export const Social: SocialData[] = [
     {
         name: 'GitHub',
         faClass: 'fab fa-github',
-        link: 'https://github.com/jackson-nestelroad'
+        link: 'https://github.com/Mohamed-Aymen-Ben-Slimen'
     },
     {
         name: 'LinkedIn',
         faClass: 'fab fa-linkedin',
-        link: 'https://www.linkedin.com/in/jackson-nestelroad/'
+        link: 'https://www.linkedin.com/in/mohamed-aymen-ben-slimen-758610190/'
     },
     {
         name: 'Email',
         faClass: 'fas fa-envelope',
-        link: 'mailto:jackson@nestelroad.com'
+        link: 'mailto:mohamed.aymen.ben.slimen@gmail.com'
     }
 ];

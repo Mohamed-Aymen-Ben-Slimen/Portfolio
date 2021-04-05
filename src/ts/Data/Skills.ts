@@ -4,15 +4,39 @@ import { SkillData, SkillCategory } from '../Classes/Elements/Skill'
 
 export const Skills: SkillData[] = [
     {
-        name: 'Amazon Web Services',
-        svg: 'aws',
-        color: '#232F3E',
-        category: SkillCategory.DevOps,
+        name: 'JavaScript',
+        svg: 'javascript',
+        color: '#F0DB4F',
+        category: SkillCategory.Web | SkillCategory.Programming,
+    },
+    {
+        name: 'TypeScript',
+        svg: 'typescript',
+        color: '#007ACC',
+        category: SkillCategory.Web | SkillCategory.Programming,
+    },
+    {
+        name: 'Node.js',
+        svg: 'nodejs',
+        color: '#8CC84B',
+        category: SkillCategory.Programming | SkillCategory.Server,
     },
     {
         name: 'Angular',
         svg: 'angular',
         color: '#DD0031',
+        category: SkillCategory.Web | SkillCategory.Framework,
+    },
+    {
+        name: 'React',
+        svg: 'react',
+        color: '#00D8FF',
+        category: SkillCategory.Web | SkillCategory.Framework,
+    },
+    {
+        name: 'Nest.js',
+        svg: 'nestjs',
+        color: '#F0DB4F',
         category: SkillCategory.Web | SkillCategory.Framework,
     },
     {
@@ -22,10 +46,10 @@ export const Skills: SkillData[] = [
         category: SkillCategory.Programming | SkillCategory.Server,
     },
     {
-        name: 'C#',
-        svg: 'csharp',
-        color: '#9B4F97',
-        category: SkillCategory.Programming | SkillCategory.Server,
+        name: 'HTML',
+        svg: 'html',
+        color: '#EF652A',
+        category: SkillCategory.Web,
     },
     {
         name: 'CSS',
@@ -34,16 +58,10 @@ export const Skills: SkillData[] = [
         category: SkillCategory.Web,
     },
     {
-        name: 'Docker',
-        svg: 'docker',
-        color: '#22B9EC',
-        category: SkillCategory.DevOps,
-    },
-    {
-        name: '.NET Core/Framework',
-        svg: 'dotnet',
-        color: '#0F76BD',
-        category: SkillCategory.Programming | SkillCategory.Server | SkillCategory.Framework,
+        name: 'SASS/SCSS',
+        svg: 'sass',
+        color: '#CD669A',
+        category: SkillCategory.Web,
     },
     {
         name: 'Express JS',
@@ -52,16 +70,22 @@ export const Skills: SkillData[] = [
         category: SkillCategory.Server | SkillCategory.Framework,
     },
     {
-        name: 'Figma',
-        svg: 'figma',
-        color: '#F24E1E',
-        category: SkillCategory.Other,
+        name: 'MongoDB',
+        svg: 'mongodb',
+        color: '#d44000',
+        category: SkillCategory.Database,
     },
     {
         name: 'Firebase',
         svg: 'firebase',
         color: '#FFCA28',
         category: SkillCategory.Database,
+    },
+    {
+        name: 'TensorFlow',
+        svg: 'tensorflow',
+        color: '#5557ff',
+        category: SkillCategory.DataScience,
     },
     {
         name: 'Git',
@@ -76,94 +100,16 @@ export const Skills: SkillData[] = [
         category: SkillCategory.Scripting,
     },
     {
-        name: 'Google Cloud Platform',
-        svg: 'gcp',
-        color: '#4386FA',
-        category: SkillCategory.DevOps,
-    },
-    {
-        name: 'Gulp',
-        svg: 'gulp',
-        color: '#DA4648',
-        category: SkillCategory.Web,
-    },
-    {
-        name: 'Heroku',
-        svg: 'heroku',
-        color: '#6762A6',
-        category: SkillCategory.DevOps,
-    },
-    {
-        name: 'HTML',
-        svg: 'html',
-        color: '#EF652A',
-        category: SkillCategory.Web,
-    },
-    {
         name: 'Java',
         svg: 'java',
         color: '#007699',
         category: SkillCategory.Programming | SkillCategory.Server,
     },
     {
-        name: 'JavaScript',
-        svg: 'javascript',
-        color: '#F0DB4F',
-        category: SkillCategory.Web | SkillCategory.Programming,
-    },
-    {
-        name: 'Jest',
-        svg: 'jest',
-        color: '#C21325',
-        category: SkillCategory.Web,
-    },
-    {
-        name: 'Kubernetes',
-        svg: 'kubernetes',
-        color: '#356DE6',
-        category: SkillCategory.DevOps,
-    },
-    {
-        name: 'Microsoft Azure',
-        svg: 'azure',
-        color: '#0089D6',
-        category: SkillCategory.DevOps,
-    },
-    {
-        name: 'Node.js',
-        svg: 'nodejs',
-        color: '#8CC84B',
-        category: SkillCategory.Programming | SkillCategory.Server,
-    },
-    {
-        name: 'PostgreSQL',
-        svg: 'postgresql',
-        color: '#326690',
-        category: SkillCategory.Database,
-    },
-    {
         name: 'Python',
         svg: 'python',
         color: '#3776AB',
         category: SkillCategory.Programming | SkillCategory.Scripting | SkillCategory.Server,
-    },
-    {
-        name: 'React',
-        svg: 'react',
-        color: '#00D8FF',
-        category: SkillCategory.Web | SkillCategory.Framework,
-    },
-    {
-        name: 'R Language',
-        svg: 'rlang',
-        color: '#2369BC',
-        category: SkillCategory.Programming,
-    },
-    {
-        name: 'SASS/SCSS',
-        svg: 'sass',
-        color: '#CD669A',
-        category: SkillCategory.Web,
     },
     {
         name: 'Spring',
@@ -177,16 +123,5 @@ export const Skills: SkillData[] = [
         color: '#F89700',
         category: SkillCategory.Database,
     },
-    {
-        name: 'TypeScript',
-        svg: 'typescript',
-        color: '#007ACC',
-        category: SkillCategory.Web | SkillCategory.Programming,
-    },
-    {
-        name: 'Vue.js',
-        svg: 'vue',
-        color: '#4FC08D',
-        category: SkillCategory.Web | SkillCategory.Framework,
-    }
 ];
+console.log("helooooooooooooo");

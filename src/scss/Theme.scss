@@ -4,7 +4,7 @@ $root-font-size: 16px;
 
 $theme-colors: (
     base: #F4F4F9,
-    primary: #29AB87,
+    primary: #297eab,
     secondary: white,
     dark: #2D323F,
     darker: #222636
@@ -217,7 +217,7 @@ $breakpoints-max: (
 }
 
 @mixin for-viewport-down($size) {
-    
+
     @if($size == xs) {
         @media all and (max-width: map-get($breakpoints-max, sm)) {
             @content;
@@ -408,7 +408,7 @@ $elevation-ambient: (
         @error "$z-index must be between 0 and 24.";
     }
 
-    box-shadow: 
+    box-shadow:
         #{map-get($elevation-umbra, $z-index)} $elevation-umbra-color,
         #{map-get($elevation-penumbra, $z-index)} $elevation-penumbra-color,
         #{map-get($elevation-ambient, $z-index)} $elevation-ambient-color;
