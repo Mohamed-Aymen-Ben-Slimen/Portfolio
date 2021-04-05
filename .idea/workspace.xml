@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c728682-f249-455c-8820-98fc3c48eb17" name="Default Changelist" comment="First commit" />
+    <list default="true" id="7c728682-f249-455c-8820-98fc3c48eb17" name="Default Changelist" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,7 @@
       <workItem from="1610796273107" duration="50000" />
       <workItem from="1610844937956" duration="1882000" />
       <workItem from="1610885739619" duration="163000" />
-      <workItem from="1617624454010" duration="18642000" />
+      <workItem from="1617624454010" duration="19159000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1617645096126</created>
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617653706296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First commit">
+      <created>1617654348554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617654348554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,10 +148,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617631204222" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617653711857">
+    <state x="147" y="65" key="MergeDialog" timestamp="1617654374575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617653711857" />
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1617654374575" />
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1617654374583">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1617654374583" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617654392925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617654392925" />
     <state x="523" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617645031963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
