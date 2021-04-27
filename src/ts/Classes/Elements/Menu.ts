@@ -12,7 +12,7 @@ export class Menu extends Events.EventDispatcher {
     public readonly Container: HTMLElement = DOM.getFirstElement('header.menu');
     public readonly Hamburger: HTMLElement = DOM.getFirstElement('header.menu .hamburger');
 
-    constructor() { 
+    constructor() {
         super();
         this.register('toggle');
     }
@@ -52,7 +52,7 @@ export class Menu extends Events.EventDispatcher {
         const elementsFromPoint: string = document.elementsFromPoint ? 'elementsFromPoint' : 'msElementsFromPoint';
         const { top, left } = this.Hamburger.getBoundingClientRect();
         let elements: HTMLElement[] = document[elementsFromPoint](left, top);
-        
+
         const length = elements.length;
         let RGB: number[] = [];
         let background: string, regExResult: RegExpExecArray;
