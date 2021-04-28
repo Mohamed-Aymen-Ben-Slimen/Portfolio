@@ -10,7 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c728682-f249-455c-8820-98fc3c48eb17" name="Default Changelist" comment="First commit" />
+    <list default="true" id="7c728682-f249-455c-8820-98fc3c48eb17" name="Default Changelist" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/out/images/Certificates/deepLearning.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Certificates/deepLearning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Certificates/imagineCup.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Certificates/imagineCup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Certificates/tf.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Certificates/tf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/alz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/alz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/award.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/award.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/nst.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/nst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/ocr.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/ocr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/pfe.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/pfe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/restau.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/restau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/images/Projects/ubo.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/images/Projects/ubo.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,15 +45,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/images/Projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/images/Certificates" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="E:\Programming\templates\portfolio2\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Programming\templates\portfolio2\out\images\Projects" />
       <recent name="E:\Programming\templates\portfolio2\out\images\Certificates" />
+      <recent name="E:\Programming\templates\portfolio2\out\images\Projects" />
       <recent name="E:\Development\templates\portfolio2\out\images\Education" />
       <recent name="E:\Development\templates\portfolio2\out\images\Experience" />
       <recent name="E:\Development\templates\portfolio2\out\images\Content" />
@@ -85,7 +96,7 @@
       <workItem from="1619479467312" duration="470000" />
       <workItem from="1619485994369" duration="5290000" />
       <workItem from="1619539964782" duration="17000" />
-      <workItem from="1619649638354" duration="1930000" />
+      <workItem from="1619649638354" duration="2318000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1617645096126</created>
@@ -150,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619651391951</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First commit">
+      <created>1619651729408</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619651729408</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,10 +219,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1617654374583" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619650972246">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619651732016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619650972246" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619651732016" />
     <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1619650830681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
