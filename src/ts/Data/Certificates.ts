@@ -32,7 +32,7 @@ export const Certificates: ProjectData[] = [
     {
         name: 'Tensorflow in Practice Specialization',
         color: '#127900',
-        image: 'deepLearning.png',
+        image: 'tf.png',
         type: '',
         date: 'March 2020',
         award: null,
