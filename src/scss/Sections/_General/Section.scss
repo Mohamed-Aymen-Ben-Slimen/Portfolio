@@ -30,6 +30,7 @@
 @include custom-visual-tag(Experience);
 @include custom-visual-tag(Projects, "class=\"recent\"");
 @include custom-visual-tag(Education);
+@include custom-visual-tag(Certificates);
 
 section {
     width: 100%;

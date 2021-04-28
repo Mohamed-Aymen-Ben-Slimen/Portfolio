@@ -4,6 +4,22 @@ import { ProjectData } from '../Classes/Elements/Project'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'AR Copy Paste',
+        color: '#1b9b00',
+        image: 'ar.png',
+        type: 'Project',
+        date: 'Spring 2021',
+        award: null,
+        flavor: 'Mobile application that copy objects from the real wolrd and paste it to the virtual world.',
+        repo: null,
+        external: 'http://www.ubo.tn',
+        details: [
+            'Developing the mobile application using React Native.',
+            'Developing the desktop application using Python and Tkinter',
+            'Implementing background removal feature using U^2 algorithm.',
+        ],
+    },
+    {
         name: 'Ubo',
         color: '#3f6bff',
         image: 'ubo.png',
@@ -14,10 +30,9 @@ export const Projects: ProjectData[] = [
         repo: null,
         external: 'http://www.ubo.tn',
         details: [
-            'Implemented with TypeScript, Discord.JS, and Sequelize.',
-            'Deployed with a PostgreSQL database to Heroku.',
-            'Generates a random pattern of the Pokémon Spinda from 4,294,967,295 possibilities, matching the behavior of the mainline Pok\u{00E9}mon games',
-            'Server-specific, highly-programmable custom commands.',
+            'Developing a dashboard with React.',
+            'Developing an API using Express.js and MongoDB.',
+            'Developing a landing page website.',
         ],
     },
     {
