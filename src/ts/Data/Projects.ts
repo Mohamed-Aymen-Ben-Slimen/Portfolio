@@ -12,7 +12,7 @@ export const Projects: ProjectData[] = [
         award: null,
         flavor: 'Mobile application that copy objects from the real wolrd and paste it to the virtual world.',
         repo: null,
-        external: 'http://www.ubo.tn',
+        external: 'https://www.linkedin.com/feed/update/urn:li:activity:6793486112175243264/',
         details: [
             'Developing the mobile application using React Native.',
             'Developing the desktop application using Python and Tkinter',
