@@ -3945,6 +3945,8 @@ header.navigation .sections {
       background-color: #967463; }
     header.navigation .sections > a[href=\#connect] {
       background-color: #859663; }
+    header.navigation .sections > a[href=\#certificates] {
+      background-color: #537694; }
     header.navigation .sections > a > .slider {
       position: absolute;
       top: 0;
